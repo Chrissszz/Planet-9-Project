@@ -321,9 +321,10 @@ ul {
   background-attachment: fixed;
 }
 .bg14 {
-  background-color: #031321;
   background: url(assets/images/bg/testi-bg.jpg);
-  background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-size: 50%;
+    background-position: -30px 20px;
 }
 .bg15 {
   background: url(assets/images/bg/cta-bg4.jpg);
@@ -735,6 +736,7 @@ button:focus {
 .pagenav-link ul li a:hover {
   color: #ffb703;
 }
+
 .pagenav-link ul li a:hover i:before {
   color: #ffb703;
 }
@@ -2337,6 +2339,9 @@ blockquote p {
 .sec-title .title.title3 span {
   color: #e8271e;
   font-style: italic;
+}
+.sec-title .title.title3 .titleColorer {
+  color: #4f3131;
 }
 .sec-title .title.title4 {
   position: relative;
@@ -7911,14 +7916,14 @@ body .search-modal .close:hover {
   border: none;
 }
 .rs-project.project-style3 .background-video-wrap .background-overlay {
-  background-color: #010423;
-  opacity: 0.85;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
+  background-color: #30356b96;
+    opacity: 0.85;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 .rs-project.project-style3 .project-item .project-img {
   overflow: hidden;
@@ -11665,6 +11670,7 @@ body .search-modal .close:hover {
 .rs-inner-blog .blog-details .blog-full .blog-content-full .title.title3 {
   font-size: 24px;
 }
+
 .rs-inner-blog .blog-details .blog-full .blog-content-full p {
   margin: 0;
 }
