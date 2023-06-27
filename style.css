@@ -2335,6 +2335,7 @@ blockquote p {
 }
 .sec-title .title.title3 {
   color: #ffffff;
+  text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
 }
 .sec-title .title.title3 span {
   color: #e8271e;
@@ -2342,6 +2343,7 @@ blockquote p {
 }
 .sec-title .title.title3 .titleColorer {
   color: #4f3131;
+  text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
 }
 .sec-title .title.title4 {
   position: relative;
@@ -13297,6 +13299,7 @@ body .search-modal .close:hover {
 }
 .rs-footer.footer-main-home.footer-style2 {
   background-image: url(assets/images/bg/footer-bg2.jpg);
+  background-position: center top 900px;
 }
 .rs-footer.footer-main-home.footer-style2 .footer-bottom .copy-right-menu li a:hover,
 .rs-footer.footer-main-home.footer-style2 .footer-bottom .copyright p a:hover,
