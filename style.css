@@ -69,6 +69,10 @@ img {
   height: auto;
   border-radius: 2.5%;
 }
+.blacknwhite img{
+  position: relative;
+  bottom: 50px;
+}
 p {
   margin: 0 0 26px;
   line-height: 1.8;
@@ -205,7 +209,7 @@ h6 {
   padding-bottom: 220px;
 }
 a {
-  color: #ffb703;
+  color: #e1221b;
   transition: all 0.3s ease;
   text-decoration: none !important;
   outline: none !important;
@@ -214,7 +218,7 @@ a:active,
 a:hover {
   text-decoration: none;
   outline: 0 none;
-  color: #ffb703;
+  color: #e1221b;
 }
 ul {
   list-style: outside none none;
@@ -225,12 +229,12 @@ ul {
   clear: both;
 }
 ::-moz-selection {
-  background: #ffb703;
+  background: #e1221b;
   text-shadow: none;
   color: #ffffff;
 }
 ::selection {
-  background: #ffb703;
+  background: #e1221b;
   text-shadow: none;
   color: #ffffff;
 }
@@ -595,7 +599,7 @@ ul.check-lists .list-item {
   padding-bottom: calc(6px);
 }
 ul.check-lists .list-item .icon-list-icon i {
-  color: #FFB703;
+  color: #e1221b;
   font-size: 18px;
 }
 ul.check-lists .list-item .icon-list-icon i:before {
@@ -991,7 +995,7 @@ blockquote p {
   overflow: hidden;
 }
 .readon.more {
-  background: #ffb703;
+  background: #e1221b;
   padding: 17px 23px 17px 23px;
   color: #010d14;
   font-weight: 500;
@@ -4475,11 +4479,6 @@ body .search-modal .close:hover {
 /* ------------------------------------
 	06. Breadcrumbs Section CSS
 ---------------------------------------*/
-.rs-breadcrumbs {
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-position: top left !important;
-}
 .rs-breadcrumbs .breadcrumbs-inner {
   padding: 140px 10px 140px 10px;
   text-align: center;
@@ -4504,7 +4503,7 @@ body .search-modal .close:hover {
   right: 0;
   transition: all .3s ease;
   z-index: -1;
-  background: #ffb703;
+  background: #e1221b;
   width: 65px;
 }
 .rs-breadcrumbs .breadcrumbs-inner .sub-text {
@@ -4518,7 +4517,7 @@ body .search-modal .close:hover {
   width: 50%;
 }
 .rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-area {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(0 0 0 / 17%);
   padding: 13px 30px;
   max-width: 300px;
   margin: 0 auto;
@@ -4538,7 +4537,7 @@ body .search-modal .close:hover {
 .rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-area li a:before {
   content: "";
   position: absolute;
-  background: #ffb703;
+  background: #e1221b;
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -4546,10 +4545,10 @@ body .search-modal .close:hover {
   top: 5px;
 }
 .rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-area li a:hover {
-  color: #ffb703;
+  color: #e1221b;
 }
 .rs-breadcrumbs.img1 {
-  background: url(assets/images/breadcrumbs/bgimage1.jpg);
+  background-color: #072233;
 }
 .rs-breadcrumbs.img2 {
   background: url(assets/images/breadcrumbs/inr-2.jpg);
