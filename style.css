@@ -252,9 +252,9 @@ ul {
 }
 .bg3 {
   background: url(assets/images/bg/contact-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 80%;
 }
 .bg4 {
   background-color: #010D14;
@@ -378,7 +378,6 @@ ul {
 }
 .bg22 {
   background-color: #010D14;
-  background: url(assets/images/bg/about-single-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2027,7 +2026,7 @@ blockquote p {
   top: 50%;
   z-index: 9;
   text-align: center;
-  background-color: #FFB703;
+  background-color: #e1221b;
 }
 .rs-videos .animate-border .popup-border i {
   transition: 0.3s ease all;
@@ -2036,7 +2035,7 @@ blockquote p {
   position: relative;
 }
 .rs-videos .animate-border .popup-border:before {
-  background-color: #FFB703;
+  background-color: #e1221b;
   content: "";
   position: absolute;
   z-index: 0;
@@ -2192,7 +2191,7 @@ blockquote p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.3;
-  color: #010d14;
+  color: #ffffff;
   text-transform: uppercase;
   font-family: Roboto;
   margin: 0 0 10px;
@@ -2330,7 +2329,7 @@ blockquote p {
   font-size: 42px;
   font-weight: 700;
   line-height: 53px;
-  color: #010d14;
+  color: #ffffff;
   margin: 0;
 }
 .sec-title .title.title2 {
@@ -2362,7 +2361,7 @@ blockquote p {
   border: 0;
   width: 65px;
   height: 5px;
-  background: #FFB703;
+  background: #e1221b;
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -6491,6 +6490,8 @@ body .search-modal .close:hover {
 }
 .rs-contact.contact-style1 .contact-section {
   padding: 120px 22px 120px 45px;
+  background: #00000038;
+  border-radius: 123px;
 }
 .rs-contact.contact-style1 .contact-section .contact-wrap .from-control {
   padding: 15px 17px 15px 17px;
@@ -8761,7 +8762,7 @@ body .search-modal .close:hover {
 .rs-skillbar.skillbar-style1.skillbar-modify5 .cl-skill-bar .skillbar .skillbar-bar {
   height: 11px;
   line-height: 11px;
-  background-color: #FFB703;
+  background-color: #e1221b;
   border-radius: 0px 0px 0px 0px;
 }
 .rs-skillbar.skillbar-style1.skillbar-modify5 .cl-skill-bar .skillbar .skill-bar-percent {
@@ -13082,8 +13083,7 @@ body .search-modal .close:hover {
 	32. Footer Section CSS
 ------------------------------------*/
 .rs-footer.footer-main-home {
-  background-image: url(assets/images/bg/footer-bg.jpg);
-  background-size: cover;
+  background-color: #010d14;
 }
 .rs-footer.footer-main-home .footer-top {
   padding: 85px 0 70px;
@@ -13120,7 +13120,7 @@ body .search-modal .close:hover {
   text-align: center;
 }
 .rs-footer.footer-main-home .footer-top .footer-social li a i:hover {
-  color: #ffb703;
+  color: #e1221b
 }
 .rs-footer.footer-main-home .footer-top .footer-social li:last-child {
   margin-right: 0;
@@ -13130,7 +13130,7 @@ body .search-modal .close:hover {
   position: relative;
 }
 .rs-footer.footer-main-home .footer-top .address-widget li i {
-  color: #ffb703;
+  color: #e1221b;
   position: absolute;
   left: 0;
 }
@@ -13146,7 +13146,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-footer.footer-main-home .footer-top .address-widget li .desc a:hover {
-  color: #ffb703;
+  color: #e1221b;
 }
 .rs-footer.footer-main-home .footer-top .site-map {
   margin-top: -6px;
@@ -13165,13 +13165,13 @@ body .search-modal .close:hover {
 }
 .rs-footer.footer-main-home .footer-top .site-map li a:hover {
   padding-left: 5px;
-  color: #ffb703;
+  color: #e1221b;
 }
 .rs-footer.footer-main-home .footer-top .site-map li a:before {
   content: "\f113";
   left: 0;
   top: 0;
-  color: #ffb703;
+  color: #e1221b;
   margin-right: 10px;
   font-size: 13px;
   font-family: Flaticon;
@@ -13193,7 +13193,7 @@ body .search-modal .close:hover {
 .rs-footer.footer-main-home .footer-top p input[type="submit"] {
   position: relative;
   border: none;
-  background: #ffb703;
+  background: #e1221b;
   color: #010d14;
   padding: 16px 35px 16px;
   font-weight: 500;
@@ -13204,8 +13204,8 @@ body .search-modal .close:hover {
   transition: all 0.3s;
 }
 .rs-footer.footer-main-home .footer-top p input[type="submit"]:hover {
-  background: #fff !important;
-  color: #010d14;
+  background: #041c2b !important;
+  color: white;
 }
 .rs-footer.footer-main-home .footer-top p ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -13258,14 +13258,14 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-footer.footer-main-home .footer-bottom .copy-right-menu li a:hover {
-  color: #ffb703;
+  color: #e1221b;
 }
 .rs-footer.footer-main-home .footer-bottom .copy-right-menu li:before {
   display: block;
   content: "";
   position: absolute;
   font-size: 18px;
-  background: #ffb703;
+  background: #e1221b;
   left: 0;
   top: 50%;
   width: 6px;
@@ -13600,7 +13600,7 @@ body .search-modal .close:hover {
   color: #010d14;
   line-height: 36px;
   transition: all 0.3s ease 0s;
-  background: #FFB703;
+  background: #e1221b;
   margin-left: 2px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.04);
   display: block;
