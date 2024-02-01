@@ -318,17 +318,14 @@ ul {
 }
 .bg13 {
   background-color: #051727;
-  background: url(assets/images/bg/service-bg2.jpg);
+  background: url(assets/images/bg/spacebg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .bg14 {
-  background: url(assets/images/bg/testi-bg.jpg);
-    background-repeat: repeat-x;
-    background-size: 50%;
-    background-position: -30px 20px;
+  background: url(assets/images/bg/bgtest.jpg);
 }
 .bg15 {
   background: url(assets/images/bg/cta-bg4.jpg);
@@ -5130,7 +5127,7 @@ body .search-modal .close:hover {
   padding: 0 0 0  !important;
 }
 .rs-slider.slider-style5 .slider .slider-item {
-  background-image: url(assets/images/slider/style1/rescuecat.jpg);
+  background-image: url(assets/images/slider/style1/space1.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5150,7 +5147,7 @@ body .search-modal .close:hover {
   text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
 }
 .rs-slider.slider-style5 .slider .slider-item .slider-inner .content-part .sl-title {
-  font-size: 80px;
+  font-size: 60px;
   line-height: 100px;
   font-weight: 700;
   color: #ffffff;
@@ -5166,7 +5163,7 @@ body .search-modal .close:hover {
   text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
 }
 .rs-slider.slider-style5 .slider .slider-item.slide-bg2 {
-  background-image: url(assets/images/slider/style1/haven.jpg);
+  background-image: url(assets/images/slider/style1/space2.jpg);
 }
 .rs-slider.slider-style5 .slider .slick-arrow {
   position: absolute;
@@ -13298,7 +13295,6 @@ body .search-modal .close:hover {
 }
 .rs-footer.footer-main-home.footer-style2 {
   background-image: url(assets/images/bg/footer-bg2.jpg);
-  background-position: center top 900px;
 }
 .rs-footer.footer-main-home.footer-style2 .footer-bottom .copy-right-menu li a:hover,
 .rs-footer.footer-main-home.footer-style2 .footer-bottom .copyright p a:hover,
