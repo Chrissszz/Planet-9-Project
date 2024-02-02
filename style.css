@@ -3075,9 +3075,6 @@ blockquote p {
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
   color: #ffb703;
 }
-.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.menu-item-has-children > a {
-  padding-right: 17px;
-}
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
   color: #e1221b !important;
 }
@@ -3905,7 +3902,7 @@ blockquote p {
 .full-width-header .right_menu_togle .canvas-contact .address-area .address-list .info-icon i:before {
   margin: 0 20px 0 0;
   font-size: 25px;
-  color: #ffb703;
+  color: #e1221b;
   top: 5px;
   position: relative;
   font-family: uicons-regular-rounded !important;
@@ -5125,11 +5122,9 @@ body .search-modal .close:hover {
 }
 .rs-slider.slider-style5 .slider .slider-item {
   background-image: url(assets/images/slider/style1/space1.jpg);
-  background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
+
 .rs-slider.slider-style5 .slider .slider-item .slider-inner {
   padding: 270px 0 270px;
 }
@@ -6551,7 +6546,7 @@ body .search-modal .close:hover {
   color: #010d14;
 }
 .rs-contact.contact-style1 .contact-box-item .contact-box .content-text .title a:hover {
-  color: #ffb703;
+  color: #e1221b;
 }
 .rs-contact.contact-style1 .contact-box-item .contact-box .content-text .services-txt {
   color: #333333;
@@ -9038,6 +9033,7 @@ body .search-modal .close:hover {
   margin: 0 -3px 0 -3px;
   position: relative;
   z-index: 1;
+  height: 450px;
 }
 .rs-services.services-style5 .services-item .services-icon {
   margin-bottom: 20px;
@@ -13292,6 +13288,7 @@ body .search-modal .close:hover {
 }
 .rs-footer.footer-main-home.footer-style2 {
   background-image: url(assets/images/bg/footer-bg2.jpg);
+  background-repeat: no-repeat;
 }
 .rs-footer.footer-main-home.footer-style2 .footer-bottom .copy-right-menu li a:hover,
 .rs-footer.footer-main-home.footer-style2 .footer-bottom .copyright p a:hover,

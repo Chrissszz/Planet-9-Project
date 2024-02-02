@@ -1249,9 +1249,10 @@
     .rs-faq.faq-style1 .faq-content,
     .rs-contact.contact-style1 .contact-box-item,
     .rs-contact.contact-style1 .contact-section {
-        padding: 44px 22px 35px 45px 
-px
-;
+        padding: 44px 22px 35px 45px;
+    }
+    .slick-track{
+        height:525px;
     }
     .rs-blog.blog-main-home .blog-item .blog-content {
         padding: 30px 30px 43px 30px;
@@ -1264,6 +1265,9 @@ px
     }
     .rs-choose.choose-style2 .choose-content {
         padding: 0px 30px 60px;
+    }
+    .colLg3display{
+        display: none;
     }
     .rs-contact.contact-style1.contact-modify1 .contact-section {
         padding: 50px 0px 0 0px;
