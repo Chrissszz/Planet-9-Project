@@ -1058,7 +1058,15 @@
         font-size: 15px;
     }
     .rs-about.about-style1 .about-img img{
-        width: 100%;
+        width: 40%;
+        margin: auto;
+    }
+    .rs-about.about-style1 .about-img{
+        display: flex
+    }
+    .centerRespon{
+        display: flex;
+        justify-content: center;
     }
     .readon.red2-more,
     .readon.more {
@@ -1241,7 +1249,9 @@
     .rs-faq.faq-style1 .faq-content,
     .rs-contact.contact-style1 .contact-box-item,
     .rs-contact.contact-style1 .contact-section {
-        padding: 0px 0px 0px 0px;
+        padding: 44px 22px 35px 45px 
+px
+;
     }
     .rs-blog.blog-main-home .blog-item .blog-content {
         padding: 30px 30px 43px 30px;

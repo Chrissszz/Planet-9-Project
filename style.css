@@ -239,7 +239,7 @@ ul {
   color: #ffffff;
 }
 .bg1 {
-  background: url(assets/images/bg/about-bg.jpg);
+  background: url(assets/images/bg/space2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -251,10 +251,7 @@ ul {
   background-size: cover;
 }
 .bg3 {
-  background: url(assets/images/bg/contact-bg.jpg);
-  background-position: center;
-  background-repeat: repeat;
-  background-size: 80%;
+  background: url(assets/images/bg/spacebg.jpg);
 }
 .bg4 {
   background-color: #010D14;
@@ -605,7 +602,7 @@ ul.check-lists .list-item .list-text {
   font-size: 18px;
   line-height: 29px;
   font-weight: 500;
-  color: #010d14;
+  color: #ffffff;
   padding-left: 5px;
 }
 ul.check-lists.paste-list-style2 .list-item {
@@ -2418,7 +2415,7 @@ blockquote p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #333333;
+  color: #ffffff;
   margin: 0;
 }
 .sec-title .desc.desc2 {
@@ -3311,7 +3308,7 @@ blockquote p {
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot6,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot7,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot8 {
-  background: #ffb703;
+  background: #e8271e;
 }
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot1,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot3,
@@ -6487,7 +6484,7 @@ body .search-modal .close:hover {
 }
 .rs-contact.contact-style1 .contact-section {
   padding: 120px 22px 120px 45px;
-  background: #00000038;
+  background: #0000009c;
   border-radius: 123px;
 }
 .rs-contact.contact-style1 .contact-section .contact-wrap .from-control {
@@ -13845,7 +13842,7 @@ body .search-modal .close:hover {
   transform: translate(-50%, -50%);
   width: 100px;
   height: 100px;
-  border-top: 3px solid #e8271e;
+  border-top: 3px solid #cd1ee8;
   border-radius: 50%;
   animation: loaderspin 1.8s infinite ease-in-out;
   -webkit-animation: loaderspin 1.8s infinite ease-in-out;
