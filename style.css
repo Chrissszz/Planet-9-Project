@@ -2374,7 +2374,7 @@ blockquote p {
   right: 0;
 }
 .sec-title .title.title4.ser-style2 span {
-  color: #ffb703;
+  color: #e1221b;
 }
 .sec-title .title.title4.ser-style3 {
   font-size: 35px;
@@ -2799,7 +2799,7 @@ blockquote p {
   font-size: 14px;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix .opening em i {
-  color: #ffb703;
+  color: #e1221b;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix .opening em i:before {
   font-size: 18px;
@@ -7602,7 +7602,7 @@ body .search-modal .close:hover {
   z-index: -1;
   transform: rotate(45deg);
   transform: translate(0px, 0px) rotate(0deg) !important;
-  background: #FFB703;
+  background: #e1221b;
   border-radius: 50px 50px 50px 50px;
   transition: all 0.3s ease 0s;
 }
