@@ -12948,6 +12948,23 @@ body .search-modal .close:hover {
   width: 100%;
   outline: none;
 }
+.imageSmall{
+  height: 50px;
+}
+.center{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#decrease{
+  height: 50px;
+  width: 50px;
+}
+#increase{
+  height: 50px;
+  width: 50px;
+}
 .rs-checkout .full-grid .form-content-box .form-group textarea {
   height: 4em;
   line-height: 1.5;
