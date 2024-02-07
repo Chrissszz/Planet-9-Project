@@ -13587,6 +13587,42 @@ body .search-modal .close:hover {
   background: #ff5a06;
 }
 /* -----------------------
+	Product page styling 
+--------------------------*/
+.priceSection{
+  font-size: 30px;
+}
+.discount{
+  font-size: 20px;
+  margin-left: 10px;
+  background-color: lightblue;
+  color: blue;
+}
+.oldPrice{
+  color: hsl(220, 14%, 75%);
+  font-size: 20px;
+  text-decoration: line-through;
+}
+.number-box{
+  background-color: hsl(220, 14%, 75%);
+  height: 50px;
+  border-radius: 10px;
+}
+#increase{
+  background-color: #ffffff00;
+  border: none;
+}
+#decrease{
+  background-color: #ffffff00;
+  border: none;
+}
+.center{
+  
+}
+.grid{
+  display: flex;
+}
+/* -----------------------
 	33. Scroll Up CSS
 --------------------------*/
 #scrollUp {
