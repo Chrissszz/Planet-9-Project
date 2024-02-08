@@ -46,5 +46,26 @@ document.addEventListener("DOMContentLoaded", function () {
       document.body.removeChild(lightbox);
     };
   }
-  
-  
+  let currentImageIndex = 0;
+    const images = [
+        'assets/images/services/services-single/craiyon_233615_Chocolate_brownies_in_space.png',
+        'assets/images/services/services-single/1.jpg',
+        'assets/images/services/services-single/2.jpg',
+        'assets/images/services/services-single/3.jpg',
+        'assets/images/services/services-single/4.jpg'
+    ];
+
+    function navigateLightbox(direction) {
+        currentImageIndex += direction;
+
+        if (currentImageIndex < 0) {
+            currentImageIndex = images.length - 1;
+        } else if (currentImageIndex >= images.length) {
+            currentImageIndex = 0;
+        }
+
+        const imagePath = images[currentImageIndex];
+        const bigImage = document.getElementById('lightboxImage');
+        bigImage.src = imagePath;
+        bigImage.setAttribute('onclick', `openLightbox('${imagePath}')`);
+    }

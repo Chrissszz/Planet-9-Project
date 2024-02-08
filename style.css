@@ -12953,6 +12953,33 @@ body .search-modal .close:hover {
   border-radius: 10px;
   cursor: pointer;
 }
+.single-img {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
 
 .center{
   margin-top: 20px;
