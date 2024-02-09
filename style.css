@@ -592,7 +592,7 @@ ul.check-lists .list-item {
   padding-bottom: calc(6px);
 }
 ul.check-lists .list-item .icon-list-icon i {
-  color: #e1221b;
+  color: #7b319f;
   font-size: 18px;
 }
 ul.check-lists .list-item .icon-list-icon i:before {
@@ -2020,7 +2020,7 @@ blockquote p {
   top: 50%;
   z-index: 9;
   text-align: center;
-  background-color: #e1221b;
+  background-color: #7b319f;
 }
 .rs-videos .animate-border .popup-border i {
   transition: 0.3s ease all;
@@ -2029,7 +2029,7 @@ blockquote p {
   position: relative;
 }
 .rs-videos .animate-border .popup-border:before {
-  background-color: #e1221b;
+  background-color: #7b319f;
   content: "";
   position: absolute;
   z-index: 0;
@@ -2056,7 +2056,7 @@ blockquote p {
   transition: all 200ms;
 }
 .rs-videos.red-videos .animate-border .popup-border {
-  background-color: #eb003d;
+  background-color: #7b319f;
 }
 .rs-videos.red-videos .animate-border .popup-border i {
   color: #ffffff;
@@ -4529,7 +4529,7 @@ body .search-modal .close:hover {
 .rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-area li a:before {
   content: "";
   position: absolute;
-  background: #e1221b;
+  background: #7b319f;
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -8756,7 +8756,7 @@ body .search-modal .close:hover {
 .rs-skillbar.skillbar-style1.skillbar-modify5 .cl-skill-bar .skillbar .skillbar-bar {
   height: 11px;
   line-height: 11px;
-  background-color: #e1221b;
+  background-color: #7b319f;
   border-radius: 0px 0px 0px 0px;
 }
 .rs-skillbar.skillbar-style1.skillbar-modify5 .cl-skill-bar .skillbar .skill-bar-percent {
