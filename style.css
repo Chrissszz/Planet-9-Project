@@ -10958,6 +10958,60 @@ body .search-modal .close:hover {
   font-size: 16px;
   color: #333333;
 }
+/* Add this to your stylesheet or in a style tag in the head of your HTML */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #7b319f;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  height: 50px;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.13);
+  margin: 0 0 0 25px;
+  border: none;
+  display: flex;
+  align-items: center;
+  line-height: 2
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 25px;
+}
+
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content div:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #761180;
+}
+
 /*------------------------------------
 	24. Blog Section CSS
 ------------------------------------*/
@@ -13678,7 +13732,8 @@ body .search-modal .close:hover {
   margin: 0 0 0 25px;
 }
 .btn:hover{
-  color: #000000;
+  color: white;
+  background-color: #761180;
 }
 .grid{
   display: flex;

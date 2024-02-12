@@ -69,3 +69,19 @@ document.addEventListener("DOMContentLoaded", function () {
         bigImage.src = imagePath;
         bigImage.setAttribute('onclick', `openLightbox('${imagePath}')`);
     }
+    function changePrice(option) {
+      let priceElement = document.getElementById('price');
+      let discount = document.getElementsByClassName('discount')[0];
+      let oldPrice = document.getElementsByClassName('oldPrice')[0];
+  
+      if (option === 'retail') {
+        priceElement.innerText = '$20';
+        discount.style.display = 'inline';
+        oldPrice.style.display = 'inline';
+        // You can add any additional logic for retail pricing here
+      } else if (option === 'wholesale') {
+        priceElement.innerText = '$500';
+        discount.style.display = 'none';
+        oldPrice.style.display = 'none';
+      }
+    }

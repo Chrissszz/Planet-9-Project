@@ -704,6 +704,9 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .dropbtn , .btn{
+        font-size: 15px;
+    }
     .sticky{ 
         background: #fff !important;
         position: fixed !important;
@@ -740,6 +743,9 @@
 @media only screen and (max-width: 991px) {
     .hidden-md {
         display: none !important;
+    }
+    .dropbtn , .btn{
+        font-size: 15px;
     }
     .order-first,
     .order-last {
