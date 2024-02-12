@@ -704,9 +704,6 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    .dropbtn , .btn{
-        font-size: 15px;
-    }
     .sticky{ 
         background: #fff !important;
         position: fixed !important;
