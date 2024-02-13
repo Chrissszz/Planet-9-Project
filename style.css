@@ -229,7 +229,7 @@ ul {
   clear: both;
 }
 ::-moz-selection {
-  background: #e1221b;
+  background: #7b319f;
   text-shadow: none;
   color: #ffffff;
 }
@@ -921,7 +921,7 @@ blockquote p {
 .slick-dots li.slick-active button,
 .slick-dots li:hover button {
   width: 24px;
-  background: #ff5a06;
+  background: #7b319f;
   opacity: 40%;
 }
 /* no-gutters Class Rules */
@@ -1154,15 +1154,15 @@ blockquote p {
 .readon.red2-more.view-pro {
   padding: 18px 36px 18px 36px;
   text-transform: capitalize;
-  background-color: #cb0000;
+  background-color: #7b319f;
   border-radius: 10px;
 }
 .readon.red2-more.view-pro:hover {
-  background-color: #CB0000D4;
+  background-color: #7b319f;
 }
 .readon.red-btn {
   padding: 16px 33px 16px 33px;
-  background-color: #EB003D;
+  background-color: #7b319f;
   border-radius: 30px 30px 30px 30px;
   text-transform: capitalize;
 }
@@ -1299,13 +1299,13 @@ blockquote p {
   background-color: #bda290;
 }
 .readon.orange-btn1 {
-  background-color: #ff6314;
+  background-color: #7b319f;
   padding: 16px 30px;
   -webkit-clip-path: polygon(88% 0, 100% 37%, 100% 82%, 100% 100%, 15% 103%, 0 66%, 0 0);
 }
 .readon.orange-btn1:hover {
   color: #ffffff;
-  background-color: #e75f1a;
+  background-color: #7b319f;
 }
 .readon.orange-btn1.get-white1 {
   background-color: transparent;
@@ -1511,11 +1511,11 @@ blockquote p {
 }
 .services-btn.btn-style5 a i:before {
   font-size: 16px;
-  color: #FF6314;
+  color: #7b319f;
 }
 .services-btn.btn-style5 a:hover i {
   background-color: #F20F0F00;
-  border-color: #FF6314;
+  border-color: #7b319f;
 }
 .services-btn.btn-style6 a {
   font-family: "Roboto", Sans-serif;
@@ -1563,7 +1563,7 @@ blockquote p {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 40px 40px 40px 40px;
-  background-color: #EB003D;
+  background-color: #7b319f;
   transition: all ease .3s;
   display: inline-block;
 }
@@ -2919,13 +2919,13 @@ blockquote p {
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1.topber-modify5 .toolbar-contact .rs-contact-info li a:hover,
 .full-width-header .rs-header .toolbar-area.topbar-style1.topber-modify5 .toolbar-sl-share .clearfix li a i:hover {
-  color: #ff6314;
+  color: #7b319f;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1.topber-modify6 .toolbar-sl-share .clearfix li a i:hover,
 .full-width-header .rs-header .toolbar-area.topbar-style1.topber-modify6 .toolbar-contact .rs-contact-info li a:hover,
 .full-width-header .rs-header .toolbar-area.topbar-style1.topber-modify6 .toolbar-sl-share .clearfix .opening em i,
 .full-width-header .rs-header .toolbar-area.topbar-style1.topber-modify6 .toolbar-contact .rs-contact-info li i {
-  color: #ff5a06;
+  color: #7b319f;
 }
 .full-width-header .rs-header .middle-header {
   padding-top: 30px;
@@ -3361,7 +3361,7 @@ blockquote p {
   color: #101010;
 }
 .full-width-header .rs-header.header-modify1.header-roofing1 .expand-btn-inner ul .search-parent a i:hover {
-  color: #cb0000;
+  color: #7b319f;
 }
 .full-width-header .rs-header.header-modify1.header-roofing1 .expand-btn-inner ul .search-parent a i {
   color: #ffffff;
@@ -4548,9 +4548,6 @@ body .search-modal .close:hover {
   background-size: cover;
   background-position: center top -20px;
 }
-.rs-breadcrumbs.img3 {
-  background: url(assets/images/breadcrumbs/inr-3.jpg);
-}
 .rs-breadcrumbs.img4 {
   background: url(assets/images/breadcrumbs/inr-4.jpg);
 }
@@ -4571,6 +4568,9 @@ body .search-modal .close:hover {
 }
 .rs-banner.banner-style1 .content-wrap {
   padding: 198px 0 165px;
+}
+.rs-breadcrumbs.sizing{
+  height: 150px;
 }
 .rs-banner.banner-style1 .content-wrap .sub-text {
   font-size: 16px;
@@ -7277,13 +7277,15 @@ body .search-modal .close:hover {
 .rs-gallery.gallery-style1 .gallery-item .gallery-icon {
   margin: 0 3px 0 3px;
 }
+.gallery-item .gallery-icon h3{
+  text-align: center;
+}
 .rs-gallery.gallery-style1 .gallery-item .gallery-icon a {
   position: relative;
   display: block;
   overflow: hidden;
 }
 .rs-gallery.gallery-style1 .gallery-item .gallery-icon a:before {
-  content: "+";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -7303,7 +7305,7 @@ body .search-modal .close:hover {
   bottom: -100%;
   width: 100%;
   height: 100%;
-  background: #010d14;
+  background: #7b319f;
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
@@ -13217,7 +13219,7 @@ body .search-modal .close:hover {
   text-align: center;
 }
 .rs-footer.footer-main-home .footer-top .footer-social li a i:hover {
-  color: #e1221b
+  color: #7b319f
 }
 .rs-footer.footer-main-home .footer-top .footer-social li:last-child {
   margin-right: 0;
