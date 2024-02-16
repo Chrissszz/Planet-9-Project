@@ -2985,6 +2985,13 @@
         height: 515px !important;
         width: auto !important;
     }
+    .column{
+        float: none;
+    }
+    .dropdown-content{
+        min-width: 262px;
+    }
+    
 }
 .rs-project.project-style2.project-modify1 .project-item:before {
     background-image: linear-gradient(180deg, #FFFFFF00 0%, #000000 100%);

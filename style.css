@@ -988,7 +988,7 @@ blockquote p {
   overflow: hidden;
 }
 .readon.more {
-  background: #7b319f;
+  background: #e81ecd;
   padding: 17px 23px 17px 23px;
   color: #ffffff;
   font-weight: 500;
@@ -2355,7 +2355,7 @@ blockquote p {
   border: 0;
   width: 65px;
   height: 5px;
-  background: #7b319f;
+  background: #e81ecd;
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -3076,7 +3076,7 @@ blockquote p {
   color: #ffb703;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
-  color: #7b319f !important;
+  color: #e81ecd !important;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu {
   background: #ffffff;
@@ -3171,14 +3171,14 @@ blockquote p {
  margin-right: 20px;
 }
 .shoppingCart a{
-  color: white;
+  color: #ffffff;
 }
 .shoppingCart a:hover{
   color: #e81ecd;
   cursor: pointer;
 }
 .full-width-header .rs-header .expand-btn-inner ul .search-parent a i:hover {
-  color: #7b319f;
+  color: #e81ecd;
 }
 .full-width-header .rs-header .expand-btn-inner ul .search-parent .sticky_form {
   position: absolute;
@@ -3270,7 +3270,7 @@ blockquote p {
 }
 .full-width-header .rs-header .expand-btn-inner ul .btn-quote .quote-button {
   font-size: 14px;
-  background: #7b319f;
+  background: #e81ecd;
   padding: 11px 30px 10px;
   color: #ffffff;
   text-transform: uppercase;
@@ -3355,6 +3355,12 @@ blockquote p {
 }
 .full-width-header .rs-header.header-modify1 .menu-area.sticky .expand-btn-inner ul .search-parent a i {
   color: #101010;
+}
+.full-width-header .rs-header.header-modify1 .menu-area.sticky .expand-btn-inner ul .shoppingCart a{
+  color: #101010;
+}
+.full-width-header .rs-header.header-modify1 .menu-area.sticky .expand-btn-inner ul .shoppingCart a i:hover{
+  color: #e81ecd;
 }
 .full-width-header .rs-header.header-modify1 .menu-area.sticky .expand-btn-inner ul .search-parent a i:hover {
   color: #e81ecd;
@@ -7624,7 +7630,7 @@ body .search-modal .close:hover {
   z-index: -1;
   transform: rotate(45deg);
   transform: translate(0px, 0px) rotate(0deg) !important;
-  background: #7b319f;
+  background: #e81ecd;
   border-radius: 50px 50px 50px 50px;
   transition: all 0.3s ease 0s;
 }
@@ -10983,7 +10989,7 @@ body .search-modal .close:hover {
 }
 
 .dropbtn {
-  background-color: #7b319f;
+  background-color: #e81ecd;
   color: white;
   padding: 10px;
   font-size: 20px;
@@ -11019,6 +11025,8 @@ body .search-modal .close:hover {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
   display: block;
 }
 
@@ -13321,7 +13329,7 @@ body .search-modal .close:hover {
 .rs-footer.footer-main-home .footer-top p input[type="submit"] {
   position: relative;
   border: none;
-  background: #7b319f;
+  background: #e81ecd;
   color: #ffffff;
   padding: 16px 35px 16px;
   font-weight: 500;
@@ -13393,7 +13401,7 @@ body .search-modal .close:hover {
   content: "";
   position: absolute;
   font-size: 18px;
-  background: #7b319f;
+  background: #e81ecd;
   left: 0;
   top: 50%;
   width: 6px;
@@ -13717,7 +13725,7 @@ body .search-modal .close:hover {
 .discount{
   font-size: 20px;
   margin-left: 10px;
-  background-color: #7b319f;
+  background-color: #e81ecd;
   color: white;
 }
 .oldPrice{
@@ -13753,7 +13761,7 @@ body .search-modal .close:hover {
 .btn{
   font-weight: bold;
   border: none;
-  background-color: #7b319f;
+  background-color: #e81ecd;
   border-radius: 1rem;
   height: 50px;
   color: #ffffff;
@@ -13818,7 +13826,7 @@ body .search-modal .close:hover {
   color: white;
   line-height: 36px;
   transition: all 0.3s ease 0s;
-  background: #7b319f;
+  background: #e81ecd;
   margin-left: 2px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.04);
   display: block;
