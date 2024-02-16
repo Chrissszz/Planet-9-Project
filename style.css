@@ -4259,8 +4259,8 @@ body .search-modal .close:hover {
 .rs-about.about-style1 .services-item:hover .services-text .title {
   color: #eb003d;
 }
-.rs-about.about-style2 .about-image {
-  margin: 0px 50px 0px -101px;
+.about-image img{
+  height: 400px;
 }
 .rs-about.about-style2 .widget-img {
   position: relative;
