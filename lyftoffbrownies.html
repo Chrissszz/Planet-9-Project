@@ -124,7 +124,7 @@
 														<a href="products.html">Products</a>
 														<ul class="sub-menu">
 															<li><a href="lyftoffbrownies.html">Lyft Off 500mg Brownies</a></li>
-															<li><a href="#">El Gallo Mix</a></li>
+															<li><a href="#">El Gallo Mix Candy</a></li>
 															<li class="last-item menu-item-has-children">
 															    <a href="#">Example</a>
 															</li>
@@ -200,7 +200,7 @@
 					    		<a href="products.html">Products</a>
 					    		<ul class="sub-menu">
 					    			<li><a href="lyftoffbrownies.html">Lyft Off 500mg Brownies</a></li>
-					    			<li><a href="#">Product 2</a></li>
+					    			<li><a href="#">El Gallo Mix Candy</a></li>
 									<li><a href="products.html">All Products</a></li>
 					    		</ul>
 					    	<li>
@@ -310,8 +310,14 @@
 									<div class="dropdown">
 										<button class="dropbtn">Price Options</button>
 										<div class="dropdown-content" id="priceOptions">
-										  <div onclick="changePrice('retail')">Retail Price</div>
-										  <div onclick="changePrice('wholesale')">Wholesale Price</div>
+										  <div class="column">
+											<div onclick="changePrice('retail')">Retail</div>
+											<span>$18</span>
+										  </div>
+										  <div class="column">
+											<div onclick="changePrice('wholesale')">Wholesale</div>
+											<span>$9.00 - MOQ 10</span>
+										  </div>
 										</div>
 									  </div>
 									<button class="btn center">
@@ -634,5 +640,7 @@
 		<script src="assets/js/main.js"></script>
 		<!-- product page js-->
 		<script src="assets/js/productpage.js"></script>
+		<!-- Font Awesome-->
+		<script src="https://kit.fontawesome.com/12f76d88c1.js" crossorigin="anonymous"></script>
 	</body>
 </html>

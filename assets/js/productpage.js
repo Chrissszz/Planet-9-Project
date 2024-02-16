@@ -75,13 +75,16 @@ document.addEventListener("DOMContentLoaded", function () {
       let oldPrice = document.getElementsByClassName('oldPrice')[0];
   
       if (option === 'retail') {
-        priceElement.innerText = '$20';
+        priceElement.innerText = '$18';
         discount.style.display = 'inline';
+        discount.innerText = "10%"
+        discount.style.padding = '0px'
         oldPrice.style.display = 'inline';
         // You can add any additional logic for retail pricing here
       } else if (option === 'wholesale') {
-        priceElement.innerText = '$500';
-        discount.style.display = 'none';
+        priceElement.innerText = '$9.00';
+        discount.innerText = 'Minimum order quantity of 10 units';
+        discount.style.padding = '0px 10px'
         oldPrice.style.display = 'none';
       }
     }
