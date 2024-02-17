@@ -69,22 +69,45 @@ document.addEventListener("DOMContentLoaded", function () {
         bigImage.src = imagePath;
         bigImage.setAttribute('onclick', `openLightbox('${imagePath}')`);
     }
-    function changePrice(option) {
-      let priceElement = document.getElementById('price');
-      let discount = document.getElementsByClassName('discount')[0];
-      let oldPrice = document.getElementsByClassName('oldPrice')[0];
-  
-      if (option === 'retail') {
-        priceElement.innerText = '$18';
-        discount.style.display = 'inline';
-        discount.innerText = "10%"
-        discount.style.padding = '0px'
-        oldPrice.style.display = 'inline';
-        // You can add any additional logic for retail pricing here
-      } else if (option === 'wholesale') {
-        priceElement.innerText = '$9.00';
-        discount.innerText = 'Minimum order quantity of 10 units';
-        discount.style.padding = '0px 10px'
-        oldPrice.style.display = 'none';
+    
+    // Your shared JavaScript file (e.g., script.js)
+
+function changePrice(option) {
+  let priceElement = document.getElementById('price');
+  let discount = document.getElementsByClassName('discount')[0];
+  let oldPrice = document.getElementsByClassName('oldPrice')[0];
+
+  if (option === 'retail') {
+      // Default prices for page1.html
+      let retailPrice = 18;
+      let wholesalePrice = 9;
+
+      if (window.location.pathname.includes('elgallomix.html')) {
+          // Override prices for page2.html
+          retailPrice = 12;
+          wholesalePrice = 6;
       }
-    }
+
+      priceElement.innerText = `$${retailPrice}`;
+      discount.style.display = 'inline';
+      discount.innerText = "20%";
+      discount.style.padding = '0px';
+      oldPrice.style.display = 'inline';
+      // Additional logic for retail pricing here
+  } else if (option === 'wholesale') {
+      // Default prices for page1.html
+      let wholesalePrice = 9;
+
+      if (window.location.pathname.includes('elgallomix.html')) {
+          // Override prices for page2.html
+          wholesalePrice = 6;
+      }
+
+      priceElement.innerText = `$${wholesalePrice}`;
+      discount.innerText = 'Minimum order quantity of 10 units';
+      discount.style.padding = '0px 10px';
+      oldPrice.style.display = 'none';
+  }
+}
+
+    
