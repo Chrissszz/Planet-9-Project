@@ -3003,6 +3003,9 @@
         white-space: nowrap;
         border: 0px;
       }
+      .inputNumber{
+        padding: 0px;
+      }
       
       
     

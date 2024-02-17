@@ -3350,6 +3350,12 @@ blockquote p {
   color: #ffffff;
   background: #e81ecd;
 }
+#rs-header > div.menu-area.menu-sticky.sticky > div > div > div:nth-child(3) > div > ul > li.shoppingCart > a > span{
+  color: black;
+}
+#rs-header > div.menu-area.menu-sticky.sticky > div > div > div:nth-child(3) > div > ul > li.shoppingCart > a:hover{
+  color: #e81ecd;
+}
 #rs-header > div.menu-area.menu-sticky.sticky > div > div > div:nth-child(3) > div > ul > li.shoppingCart > a > i{
   color: black;
 }
@@ -13742,7 +13748,7 @@ body .search-modal .close:hover {
 .number-box {
   display: flex;
   align-items: center;
-  background-color: hsl(220, 14%, 75%);
+  background-color: #e81ecd;
   height: 50px;
   border-radius: 10px;
   padding: 0 10px;
@@ -13807,6 +13813,13 @@ body .search-modal .close:hover {
   border: 2px solid white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+}
+.inputNumber{
+  width: 70px;
+  text-align: center;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* -----------------------

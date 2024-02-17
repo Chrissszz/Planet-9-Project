@@ -1,31 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Get the elements
-    var decreaseButton = document.getElementById("decrease");
-    var increaseButton = document.getElementById("increase");
-    var quantityElement = document.getElementById("quanity");
-
-    // Set the initial quantity
-    var quantity = 0;
-
-    // Event listener for the decrease button
-    decreaseButton.addEventListener("click", function () {
-      if (quantity > 0) {
-        quantity--;
-        updateQuantity();
-      }
-    });
-
-    // Event listener for the increase button
-    increaseButton.addEventListener("click", function () {
-      quantity++;
-      updateQuantity();
-    });
-
-    // Function to update the quantity in the middle
-    function updateQuantity() {
-      quantityElement.innerText = quantity;
-    }
-  });
   function openLightbox(imageSrc) {
     // Create a lightbox container
     var lightbox = document.createElement('div');
@@ -68,8 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const bigImage = document.getElementById('lightboxImage');
         bigImage.src = imagePath;
         bigImage.setAttribute('onclick', `openLightbox('${imagePath}')`);
+        
     }
 
+    let addToCartClicked = false
 
     function changePrice(option) {
       let priceElement = document.getElementById('price');
@@ -128,7 +102,45 @@ document.addEventListener("DOMContentLoaded", function () {
           discount.style.padding = '0px 10px';
           oldPrice.style.display = 'none';
       }
-  }
   
+      // Call updateShoppingCart with the current quantity
+      updateShoppingCart();
+  }
+  document.querySelector('.btn.center').addEventListener('click', function () {
+    addToCartClicked = true; // Set the flag to true
+    let selectedOption = document.querySelector('.dropbtn').innerText.trim().toLowerCase();
+    let quantityElement = document.getElementById('quantityInput');
+    let quantity = parseInt(quantityElement.value);
 
-    
+    if (selectedOption === 'wholesale' && quantity < 10) {
+        alert('Minimum order quantity must be 10 units for wholesale');
+        addToCartClicked = false; // Reset the flag if the condition is not met
+        return;
+    }
+
+    // Update the shopping cart quantity
+    updateShoppingCart(quantity);
+});
+  
+  function updateShoppingCart(quantity) {
+    // Check if the "Add to Cart" button was clicked
+    if (addToCartClicked) {
+        // Get the quantity from the input field
+        let quantityElement = document.getElementById('quantityInput');
+        let quantity = parseInt(quantityElement.value);
+
+        // Update the quantity in the shopping cart
+        let shoppingCartElement = document.getElementById('shoppingCart');
+        if (quantity > 0) {
+            // Display the quantity in the shopping cart
+            shoppingCartElement.innerHTML = `<a href="#"><i class="fa-solid fa-cart-shopping"></i> <span>${quantity}</span></a>`;
+        } else {
+            // If quantity is 0, remove the quantity display
+            shoppingCartElement.innerHTML = `<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>`;
+        }
+
+        // Reset the flag
+        addToCartClicked = false;
+    }
+}
+  

@@ -138,7 +138,7 @@
 								<div class="col-cell">
 									<div class="expand-btn-inner">
 										<ul>
-											<li class="shoppingCart">
+											<li class="shoppingCart" id="shoppingCart">
 												<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
 											</li>
 											<li class="search-parent">
@@ -302,14 +302,8 @@
 								</div>
 								<div class="btn-list grid">
 									<div class="number-box">
-									  <button id="decrease">
-										<img src="assets/images/services/services-single/minus-line-svgrepo-com.svg" alt="icon-minus">
-									  </button>
-									  <span id="quanity">0</span>
-									  <button id="increase">
-										<img src="assets/images/services/services-single/plus-large-svgrepo-com.svg" alt="icon-plus">
-									  </button>
-									</div>
+										<input class="inputNumber" type="number" id="quantityInput" value="0" min="0">
+									  </div>
 									<div class="dropdown">
 										<button class="dropbtn">Price Options</button>
 										<div class="dropdown-content" id="priceOptions">
