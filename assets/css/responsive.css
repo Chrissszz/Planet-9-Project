@@ -2988,9 +2988,23 @@
     .column{
         float: none;
     }
-    .dropdown-content{
-        min-width: 262px;
+    .column div{
+        padding: 0px 8px;
+        float: none;
+        margin-right: -80px;
     }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        max-width: 100%; 
+        white-space: nowrap;
+        border: 0px;
+      }
+      
+      
     
 }
 .rs-project.project-style2.project-modify1 .project-item:before {

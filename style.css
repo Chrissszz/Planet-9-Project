@@ -3350,13 +3350,19 @@ blockquote p {
   color: #ffffff;
   background: #e81ecd;
 }
+#rs-header > div.menu-area.menu-sticky.sticky > div > div > div:nth-child(3) > div > ul > li.shoppingCart > a > i{
+  color: black;
+}
+#rs-header > div.menu-area.menu-sticky.sticky > div > div > div:nth-child(3) > div > ul > li.shoppingCart > a > i:hover{
+  color: #e81ecd;
+}
 .full-width-header .rs-header.header-modify1 .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a {
   color: #101010;
 }
 .full-width-header .rs-header.header-modify1 .menu-area.sticky .expand-btn-inner ul .search-parent a i {
   color: #101010;
 }
-.full-width-header .rs-header.header-modify1 .menu-area.sticky .expand-btn-inner ul .shoppingCart a{
+.full-width-header .rs-header.header-modify1 .menu-area.sticky .expand-btn-inner ul .shoppingCart a i{
   color: #101010;
 }
 .full-width-header .rs-header.header-modify1 .menu-area.sticky .expand-btn-inner ul .shoppingCart a i:hover{
@@ -10981,8 +10987,8 @@ body .search-modal .close:hover {
   font-size: 16px;
   color: #333333;
 }
-/* Add this to your stylesheet or in a style tag in the head of your HTML */
-/* Your existing CSS */
+
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -13780,7 +13786,7 @@ body .search-modal .close:hover {
 .prodInfo{
   list-style-type: disc;
 }
-/* Add this style to your existing styles or create a new CSS file */
+
 
 .lightbox {
   position: fixed;
@@ -13802,8 +13808,6 @@ body .search-modal .close:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
-
-/* Your existing styles go here */
 
 /* -----------------------
 	33. Scroll Up CSS
