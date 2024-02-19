@@ -381,6 +381,12 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bgElGallo {
+  background: url(assets/images/bg/1740.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .bg24 {
   background: url(assets/images/bg/team-single-bg.jpg);
   background-repeat: no-repeat;
@@ -10902,6 +10908,9 @@ body .search-modal .close:hover {
 .rs-partner.partner-main-home.partner-modify8 {
   background-color: rgb(1 13 20 / 86%);
 }
+.rs-partner.partner-main-home.partner-modify8.bgBlack {
+  background-color: black !important;
+}
 .rs-partner.partner-main-home.partner-modify8 .partner-content-widget {
   background-color: unset;
   border-radius: unset;
@@ -13260,6 +13269,12 @@ body .search-modal .close:hover {
 }
 .rs-footer.footer-main-home .footer-top {
   padding: 85px 0 70px;
+}
+.bgGrey{
+  background: #232222;
+}
+.rs-footer.footer-main-home .footer-bottom.bgBlackTwo{
+  background: black;
 }
 .rs-footer.footer-main-home .footer-top .footer-logo a img {
   height: 100px;
