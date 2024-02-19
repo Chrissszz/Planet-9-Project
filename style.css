@@ -4590,6 +4590,11 @@ body .search-modal .close:hover {
   background-size: cover;
   background-position: center top -20px;
 }
+.rs-breadcrumbs.galloPicture {
+  background: url(assets/images/bg/elgallo.jpg) no-repeat center top -20px;
+  background-size: cover;
+}
+
 .rs-breadcrumbs.img4 {
   background: url(assets/images/breadcrumbs/inr-4.jpg);
 }
