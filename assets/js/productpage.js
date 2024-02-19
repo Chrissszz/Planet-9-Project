@@ -44,7 +44,7 @@
     }
 
     let addToCartClicked = false
-
+    let minOrderQuantity;
     function changePrice(option) {
       let priceElement = document.getElementById('price');
       let discount = document.getElementsByClassName('discount')[0];

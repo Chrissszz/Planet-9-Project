@@ -3129,6 +3129,13 @@ blockquote p {
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a:before {
   color: #7b319f !important;
 }
+body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.galloColorHover a:hover,
+body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.galloColorHover.active a,
+body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.galloColorHover.current-menu-item > a,
+body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.galloColorHover.current-menu-item > a:before {
+  color: rgb(241, 17, 17) !important;
+}
+
 .full-width-header .rs-header .menu-area.sticky {
   background: #fff;
 }
@@ -13288,6 +13295,9 @@ body .search-modal .close:hover {
 .rs-footer.footer-main-home .footer-top .footer-social li a i:hover {
   color: #e81ecd
 }
+.rs-footer.footer-main-home .footer-top .footer-social li a i.gallocolorHeader:hover {
+  color: red;
+}
 .rs-footer.footer-main-home .footer-top .footer-social li:last-child {
   margin-right: 0;
 }
@@ -13333,6 +13343,10 @@ body .search-modal .close:hover {
   padding-left: 5px;
   color: #e81ecd;
 }
+.rs-footer.footer-main-home .footer-top .site-map li a.galloColorHover:hover {
+  padding-left: 5px;
+  color: red;
+}
 .rs-footer.footer-main-home .footer-top .site-map li a:before {
   content: "\f113";
   left: 0;
@@ -13374,6 +13388,10 @@ body .search-modal .close:hover {
 }
 .rs-footer.footer-main-home .footer-top p input[type="submit"]:hover {
   background: #761180 !important;
+  color: white;
+}
+.rs-footer.footer-main-home .footer-top p input[type="submit"].galloColorHover:hover {
+  background: red !important;
   color: white;
 }
 .rs-footer.footer-main-home .footer-top p ::-webkit-input-placeholder {
@@ -13442,6 +13460,10 @@ body .search-modal .close:hover {
   transform: translateY(-50%);
   border-radius: 50%;
 }
+.footer-main-home .footer-bottom .copy-right-menu li.galloColorHeaderr:before {
+  background: red;
+}
+
 .rs-footer.footer-main-home .footer-bottom .copy-right-menu li:first-child:before {
   display: none;
 }
