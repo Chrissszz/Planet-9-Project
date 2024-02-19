@@ -3006,6 +3006,9 @@
       .inputNumber{
         padding: 0px;
       }
+      .custom-dropdown-content{
+        position: relative;
+      }
       
       
     
