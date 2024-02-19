@@ -20,11 +20,11 @@
   }
   let currentImageIndex = 0;
     const images = [
-        'assets/images/services/services-single/craiyon_233615_Chocolate_brownies_in_space.png',
-        'assets/images/services/services-single/1.jpg',
-        'assets/images/services/services-single/2.jpg',
-        'assets/images/services/services-single/3.jpg',
-        'assets/images/services/services-single/4.jpg'
+        'assets/images/services/services-single/Peachrings.jpg',
+        'assets/images/services/services-single/Gummy-Worms.jpg',
+        'assets/images/services/services-single/Gummybears.jpg',
+        'assets/images/services/services-single/Skittles.jpg',
+        'assets/images/services/services-single/GusherBites.jpg'
     ];
 
     function navigateLightbox(direction) {
@@ -143,4 +143,49 @@
         addToCartClicked = false;
     }
 }
-  
+document.querySelectorAll('.elGallo').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the button and dropdown content elements
+    const dropbtn = document.getElementById('selectedFlavor');
+    const dropdownContent = document.querySelector('.custom-dropdown-content');
+
+    // Add click event listener to each flavor link
+    dropdownContent.querySelectorAll('a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // Set the selected flavor text
+            dropbtn.textContent = this.textContent;
+
+            // Optionally, you can store the selected flavor in a variable or perform other actions
+
+            // Close the dropdown (if needed)
+            dropdownContent.style.display = 'none';
+        });
+    });
+
+    // Add click event listener to the dropdown button to toggle visibility
+    dropbtn.addEventListener('click', function () {
+        dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+    });
+
+    // Close the dropdown when clicking outside of it
+    document.addEventListener('click', function (e) {
+        if (!e.target.matches('.custom-dropbtn')) {
+            dropdownContent.style.display = 'none';
+        }
+    });
+});

@@ -2361,6 +2361,9 @@ blockquote p {
   left: 0;
   top: -28px;
 }
+.title.title4.galloColorHead:before{
+  background: rgb(207 9 9)
+}
 .sec-title .title.title4.ser-style1 {
   font-size: 42px;
 }
@@ -3077,6 +3080,9 @@ blockquote p {
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
   color: #e81ecd !important;
+}
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a.galloTextColor {
+  color: rgb(207 9 9) !important;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu {
   background: #ffffff;
@@ -4529,6 +4535,9 @@ body .search-modal .close:hover {
   z-index: -1;
   background: #7b319f;
   width: 65px;
+}
+.breadcrumbs-inner .page-title.galloColorHeader:after{
+  background: rgb(207 9 9);
 }
 .rs-breadcrumbs .breadcrumbs-inner .sub-text {
   font-size: 18px;
@@ -7632,6 +7641,10 @@ body .search-modal .close:hover {
   transition: all 0.3s ease 0s;
   text-align: center;
 }
+.custom3 .process-bg .process-item .number-text .number-area.galloColorHead::before {
+  background-color: rgb(207, 9, 9) !important;
+}
+
 .rs-process.process-style3 .process-bg .process-item .number-text .number-area:before {
   content: "";
   width: 100%;
@@ -7640,12 +7653,12 @@ body .search-modal .close:hover {
   top: 0;
   left: 0;
   z-index: -1;
-  transform: rotate(45deg);
-  transform: translate(0px, 0px) rotate(0deg) !important;
+  transform: rotate(45deg) translate(0px, 0px) !important; /* Combine transform properties */
   background: #e81ecd;
   border-radius: 50px 50px 50px 50px;
   transition: all 0.3s ease 0s;
 }
+
 .rs-process.process-style3 .process-bg .process-item .number-text .number-area .number-prefix {
   font-size: 18px;
   line-height: 50px;
@@ -13324,6 +13337,9 @@ body .search-modal .close:hover {
   font-size: 13px;
   font-family: Flaticon;
 }
+.rs-footer.footer-main-home .footer-top .site-map li a.galloColorOption:before{
+  color: rgb(207 9 9);
+}
 .rs-footer.footer-main-home .footer-top .widget-desc {
   margin: 0px 0px 27px 0;
   color: #ffffff;
@@ -13821,6 +13837,57 @@ body .search-modal .close:hover {
   font-weight: bold;
   font-size: 20px;
 }
+.elGallo{
+  cursor: grab;
+}
+.galloColor{
+  background-color: rgb(207 9 9) !important;
+}
+.galloTextColor{
+  color: rgb(207 9 9) !important;
+}
+/* Style the dropdown button */
+.custom-dropbtn {
+  background-color: rgb(207 9 9);
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.13);
+  border-radius: 1rem;
+}
+
+/* Style the dropdown content (hidden by default) */
+.custom-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.custom-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.custom-dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.custom-dropdown:hover .custom-dropdown-content {
+  display: block;
+}
+
 
 /* -----------------------
 	33. Scroll Up CSS
