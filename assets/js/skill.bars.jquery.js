@@ -1,9 +1,4 @@
-/*!
- * https://github.com/umarwebdeveloper/jquery-css-skills-bar
- * devsdesign: @umarwebdeveloper
- * Licensed under the MIT license
- */
- 
+
 (function ( $ ) {
  
     $.fn.skillBars = function( options ) {

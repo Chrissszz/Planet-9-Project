@@ -1,14 +1,4 @@
-/**
-*
-* -----------------------------------------------------------------------------
-*
-* Template :  Konstruk - Construction & Building HTML Template
-  Author : devsdesign
-  Author URI : http://www.devsdesign.com/
-*
-* -----------------------------------------------------------------------------
-*
-**/
+
 (function($) {
 	"use strict";
     // sticky menu
