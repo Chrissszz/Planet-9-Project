@@ -49,7 +49,6 @@
       let priceElement = document.getElementById('price');
       let discount = document.getElementsByClassName('discount')[0];
       let oldPrice = document.getElementsByClassName('oldPrice')[0];
-      let minOrderQuantity;
   
       if (option === 'retail') {
           // Default prices for lyftoffbrownies.html

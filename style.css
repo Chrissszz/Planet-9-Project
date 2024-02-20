@@ -598,7 +598,7 @@ ul.check-lists .list-item {
   padding-bottom: calc(6px);
 }
 ul.check-lists .list-item .icon-list-icon i {
-  color: #7b319f;
+  color: #e81ecd;
   font-size: 18px;
 }
 ul.check-lists .list-item .icon-list-icon i:before {
@@ -1001,7 +1001,7 @@ blockquote p {
   text-transform: uppercase;
 }
 .readon.more:hover {
-  background-color: #010D14;
+  background-color: #7b319f;
   color: #ffffff;
 }
 .readon.more.read2 {
@@ -1392,14 +1392,14 @@ blockquote p {
   padding: 8px 33px;
   font-size: 16px;
   font-weight: 500;
-  background: #ffb703;
+  background: #e81ecd;
   color: #010d14;
   text-transform: uppercase;
   border: none;
 }
 .add-btn:hover {
   color: #ffffff;
-  background: #010d14;
+  background: #7b319f;
 }
 .add-btn.cart {
   text-transform: capitalize;
@@ -2035,7 +2035,7 @@ blockquote p {
   position: relative;
 }
 .rs-videos .animate-border .popup-border:before {
-  background-color: #7b319f;
+  background-color: #e81ecd;
   content: "";
   position: absolute;
   z-index: 0;
@@ -2062,7 +2062,7 @@ blockquote p {
   transition: all 200ms;
 }
 .rs-videos.red-videos .animate-border .popup-border {
-  background-color: #7b319f;
+  background-color: #e81ecd;
 }
 .rs-videos.red-videos .animate-border .popup-border i {
   color: #ffffff;
@@ -4246,6 +4246,9 @@ body .search-modal .close:hover {
   top: 69%;
   left: 0;
 }
+.cartImage{
+  background-image: url('assets/images/bg/space2.jpg');
+}
 .rs-about.about-style1 .about-image-wrap .rs-addon-services {
   background-color: #FFFFFF;
   padding: 5px 30px 15px 30px;
@@ -4546,7 +4549,7 @@ body .search-modal .close:hover {
   right: 0;
   transition: all .3s ease;
   z-index: -1;
-  background: #7b319f;
+  background: #e81ecd;
   width: 65px;
 }
 .breadcrumbs-inner .page-title.galloColorHeader:after{
@@ -4584,7 +4587,7 @@ body .search-modal .close:hover {
 .rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-area li a:before {
   content: "";
   position: absolute;
-  background: #7b319f;
+  background: #e81ecd;
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -8822,7 +8825,7 @@ body .search-modal .close:hover {
 .rs-skillbar.skillbar-style1.skillbar-modify5 .cl-skill-bar .skillbar .skillbar-bar {
   height: 11px;
   line-height: 11px;
-  background-color: #7b319f;
+  background-color: #e81ecd;
   border-radius: 0px 0px 0px 0px;
 }
 .rs-skillbar.skillbar-style1.skillbar-modify5 .cl-skill-bar .skillbar .skill-bar-percent {
@@ -12825,7 +12828,7 @@ body .search-modal .close:hover {
   font-weight: 700;
 }
 .rs-cart .cart-wrap table.cart-table .product-name a:hover {
-  color: #ffb703;
+  color: #e81ecd;
 }
 .rs-cart .cart-wrap table.cart-table .product-price {
   font-weight: 700;
@@ -13018,7 +13021,7 @@ body .search-modal .close:hover {
 }
 .rs-checkout .coupon-toggle .accordion .card {
   border: unset;
-  border-top: 3px solid #ffb703;
+  border-top: 3px solid #e81ecd;
   border-radius: 0;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-header {
@@ -13035,13 +13038,13 @@ body .search-modal .close:hover {
 .rs-checkout .coupon-toggle .accordion .card .card-header .card-title button {
   background: unset;
   border: none;
-  color: #ffb703;
+  color: #e81ecd;
   transition: all 0.3s ease;
   outline: none;
   cursor: pointer;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-header .card-title button:hover {
-  color: #ffb703;
+  color: #7b319f;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-body {
   border: 1px solid #d3ced2;
@@ -13084,7 +13087,7 @@ body .search-modal .close:hover {
   white-space: nowrap;
   border: 1px solid #ccc;
   border-radius: 0;
-  height: 5px;
+  height: 30px;
   line-height: 45px;
   cursor: pointer;
   width: 100%;
@@ -13454,6 +13457,9 @@ body .search-modal .close:hover {
   display: inline-block;
   position: relative;
   padding: 0px 19px 0 25px;
+}
+.cartCenter{
+  margin-right: 85px;
 }
 .rs-footer.footer-main-home .footer-bottom .copy-right-menu li a {
   font-size: 15px;
