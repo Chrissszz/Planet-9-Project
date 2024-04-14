@@ -307,15 +307,10 @@ ul {
   background-size: cover;
 }
 .bg13 {
-  background-color: #051727;
-  background: url(assets/images/bg/spacebg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #dbd5d5;
 }
 .bg14 {
-  background: url(assets/images/bg/bgtest.jpg);
+  background-color: tan;
 }
 .bg15 {
   background: url(assets/images/bg/cta-bg4.jpg);
@@ -5182,8 +5177,7 @@ body .search-modal .close:hover {
   padding: 0 0 0  !important;
 }
 .rs-slider.slider-style5 .slider .slider-item {
-  background-image: url(assets/images/slider/style1/space1.jpg);
-  background-repeat: no-repeat;
+  background-color: tan;
 }
 
 .rs-slider.slider-style5 .slider .slider-item .slider-inner {
@@ -13207,6 +13201,54 @@ body .search-modal .close:hover {
 /*----------------------------------------
 	31. Account Section CSS
 ----------------------------------------*/
+.loginWindow{
+  display: block;
+}
+.loginWindowSize{
+  width: auto;
+}
+.loginButtonPage{
+  margin: 0;
+}
+.registerWindow{
+  display: block;
+}
+.registerWindowSize{
+  width: auto;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-col {
+  flex: 1;
+}
+
+.buttonEdit {
+  float: right;
+  width: 100px;
+  border-radius: 5px; 
+  border: none;
+  color: white;
+  background: #e81ecd;
+  height: 40px;
+  font-weight: bold;
+}
+.buttonEdit:hover{
+  background-color: #7b319f;
+}
+.acctSettings{
+  padding-top: 15px;
+  text-align: center;
+}
+.buttonOrders{
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+    margin: 48px auto 0;
+}
 .rs-my-account .title {
   font-size: 36px;
   line-height: 46px;
@@ -13228,7 +13270,7 @@ body .search-modal .close:hover {
   color: #333333;
 }
 .rs-my-account .rs-login .form-group label span {
-  color: #ffb703;
+  color: #e81ecd;
 }
 .rs-my-account .rs-login .form-group input {
   width: 100%;
@@ -13242,7 +13284,7 @@ body .search-modal .close:hover {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #ffb703;
+  color: #e81ecd;
 }
 .rs-my-account .rs-login p {
   font-size: 15px;
@@ -13255,7 +13297,7 @@ body .search-modal .close:hover {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #ffb703;
+  color: #e81ecd;
 }
 /*------------------------------------
 	32. Footer Section CSS
@@ -13502,8 +13544,7 @@ body .search-modal .close:hover {
   background: #eb003d;
 }
 .rs-footer.footer-main-home.footer-style2 {
-  background-image: url(assets/images/bg/footer-bg2.jpg);
-  background-repeat: no-repeat;
+  background-color: #dbd5d5;
 }
 .rs-footer.footer-main-home.footer-style2 .footer-bottom .copy-right-menu li a:hover,
 .rs-footer.footer-main-home.footer-style2 .footer-bottom .copyright p a:hover,
