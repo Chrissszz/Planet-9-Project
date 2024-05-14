@@ -62,6 +62,9 @@ img {
   height: auto;
   border-radius: 2.5%;
 }
+.productPageSizing{
+  height: 370px;
+}
 .blacknwhite img{
   position: relative;
   bottom: 50px;
@@ -3121,7 +3124,7 @@ blockquote p {
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.active a,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a:before {
-  color: #33516b !important;
+  color: #819fb9 !important;
 }
 body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.galloColorHover a:hover,
 body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.galloColorHover.active a,
@@ -3339,7 +3342,7 @@ body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul 
 .full-width-header .rs-header.header-modify1 .menu-area .main-menu .rs-menu ul.nav-menu li a:hover,
 .full-width-header .rs-header.header-modify1 .menu-area .main-menu .rs-menu ul li.current-menu-item > a:before,
 .full-width-header .rs-header.header-modify1 .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
-  color: #9f9c9f !important;
+  color:  white !important;
 }
 .full-width-header .rs-header.header-modify1 .menu-area .main-menu .rs-menu ul.nav-menu li a {
   color: #ffffff;
@@ -3348,7 +3351,7 @@ body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul 
   color: #101010;
 }
 .full-width-header .rs-header.header-modify1 .expand-btn-inner ul .search-parent a i:hover {
-  color: #9f9c9f;
+  color: #819fb9;
 }
 .full-width-header .rs-header.header-modify1 .expand-btn-inner ul .search-parent a i {
   color: #ffffff;
@@ -3361,7 +3364,7 @@ body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul 
   color: black;
 }
 #rs-header > div.menu-area.menu-sticky.sticky > div > div > div:nth-child(3) > div > ul > li.shoppingCart > a:hover{
-  color: #9f9c9f;
+  color: #819fb9;
 }
 #rs-header > div.menu-area.menu-sticky.sticky > div > div > div:nth-child(3) > div > ul > li.shoppingCart > a > i{
   color: black;
@@ -7357,7 +7360,7 @@ body .search-modal .close:hover {
   bottom: -100%;
   width: 100%;
   height: 100%;
-  background: #7b319f;
+  background: #819fb9;
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
