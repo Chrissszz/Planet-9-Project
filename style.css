@@ -232,8 +232,8 @@ ul {
   color: #ffffff;
 }
 .bg1 {
-  background: url(assets/images/bg/space2.jpg);
-  background-position: center center;
+  background: url(assets/images/bg/bg3.jpg);
+  background-position: center -70px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -244,7 +244,7 @@ ul {
   background-size: cover;
 }
 .bg3 {
-  background: url(assets/images/bg/spacebg.jpg);
+  background: url(assets/images/bg/#.jpg);
 }
 .bg4 {
   background-color: #010D14;
@@ -359,7 +359,7 @@ ul {
   background-size: cover;
 }
 .bg22 {
-  background-color: #010D14;
+  background-color: #33516b;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -586,7 +586,7 @@ ul.check-lists .list-item {
   padding-bottom: calc(6px);
 }
 ul.check-lists .list-item .icon-list-icon i {
-  color: #e81ecd;
+  color: white;
   font-size: 18px;
 }
 ul.check-lists .list-item .icon-list-icon i:before {
@@ -982,14 +982,14 @@ blockquote p {
   overflow: hidden;
 }
 .readon.more {
-  background: #e81ecd;
+  background: rgb(105 102 105);
   padding: 17px 23px 17px 23px;
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
 }
 .readon.more:hover {
-  background-color: #7b319f;
+  background-color: #33516b;
   color: #ffffff;
 }
 .readon.more.read2 {
@@ -2014,7 +2014,7 @@ blockquote p {
   top: 50%;
   z-index: 9;
   text-align: center;
-  background-color: #7b319f;
+  background-color: #33516b;
 }
 .rs-videos .animate-border .popup-border i {
   transition: 0.3s ease all;
@@ -2023,7 +2023,7 @@ blockquote p {
   position: relative;
 }
 .rs-videos .animate-border .popup-border:before {
-  background-color: #e81ecd;
+  background-color: #33516b;
   content: "";
   position: absolute;
   z-index: 0;
@@ -2349,7 +2349,7 @@ blockquote p {
   border: 0;
   width: 65px;
   height: 5px;
-  background: #e81ecd;
+  background: rgb(105 102 105);
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -3073,7 +3073,7 @@ blockquote p {
   color: #ffb703;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
-  color: #e81ecd !important;
+  color: rgb(105 102 105)!important;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a.galloTextColor {
   color: rgb(207 9 9) !important;
@@ -3121,7 +3121,7 @@ blockquote p {
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.active a,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a:before {
-  color: #7b319f !important;
+  color: #33516b !important;
 }
 body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.galloColorHover a:hover,
 body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.galloColorHover.active a,
@@ -3277,7 +3277,7 @@ body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul 
 }
 .full-width-header .rs-header .expand-btn-inner ul .btn-quote .quote-button {
   font-size: 14px;
-  background: #e81ecd;
+  background: rgb(105 102 105);
   padding: 11px 30px 10px;
   color: #ffffff;
   text-transform: uppercase;
@@ -3289,7 +3289,7 @@ body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul 
   transition: 0.4s;
 }
 .full-width-header .rs-header .expand-btn-inner ul .btn-quote .quote-button:hover {
-  background: #761180;
+  background: #33516b;
   color: #ffffff;
 }
 .full-width-header .rs-header .expand-btn-inner ul .humburger {
@@ -4537,7 +4537,7 @@ body .search-modal .close:hover {
   right: 0;
   transition: all .3s ease;
   z-index: -1;
-  background: #e81ecd;
+  background: rgb(105 102 105);
   width: 65px;
 }
 .breadcrumbs-inner .page-title.galloColorHeader:after{
@@ -4575,7 +4575,7 @@ body .search-modal .close:hover {
 .rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-area li a:before {
   content: "";
   position: absolute;
-  background: #e81ecd;
+  background: rgb(105 102 105);
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -4583,10 +4583,10 @@ body .search-modal .close:hover {
   top: 5px;
 }
 .rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-area li a:hover {
-  color: #7b319f;
+  color: #33516b;
 }
 .rs-breadcrumbs.img1 {
-  background-color: #072233;
+  background-color: #33516b;
 }
 .rs-breadcrumbs.img2 {
   background: url(assets/images/bg/lyftoff.jpg);
@@ -8814,7 +8814,7 @@ body .search-modal .close:hover {
 .rs-skillbar.skillbar-style1.skillbar-modify5 .cl-skill-bar .skillbar .skillbar-bar {
   height: 11px;
   line-height: 11px;
-  background-color: #e81ecd;
+  background-color: rgb(105 102 105);
   border-radius: 0px 0px 0px 0px;
 }
 .rs-skillbar.skillbar-style1.skillbar-modify5 .cl-skill-bar .skillbar .skill-bar-percent {
@@ -13305,7 +13305,7 @@ body .search-modal .close:hover {
 	32. Footer Section CSS
 ------------------------------------*/
 .rs-footer.footer-main-home {
-  background-color: #010d14;
+  background-color: #33516b;
 }
 .rs-footer.footer-main-home .footer-top {
   padding: 85px 0 70px;
@@ -13406,7 +13406,7 @@ body .search-modal .close:hover {
   content: "\f113";
   left: 0;
   top: 0;
-  color: #e81ecd;
+  color: #819fb9;
   margin-right: 10px;
   font-size: 13px;
   font-family: Flaticon;
@@ -13431,7 +13431,7 @@ body .search-modal .close:hover {
 .rs-footer.footer-main-home .footer-top p input[type="submit"] {
   position: relative;
   border: none;
-  background: #e81ecd;
+  background: rgb(105 102 105);
   color: #ffffff;
   padding: 16px 35px 16px;
   font-weight: 500;
@@ -13442,7 +13442,7 @@ body .search-modal .close:hover {
   transition: all 0.3s;
 }
 .rs-footer.footer-main-home .footer-top p input[type="submit"]:hover {
-  background: #761180 !important;
+  background: #819fb9 !important;
   color: white;
 }
 .rs-footer.footer-main-home .footer-top p input[type="submit"].galloColorHover:hover {
@@ -13994,7 +13994,7 @@ body .search-modal .close:hover {
   color: white;
   line-height: 36px;
   transition: all 0.3s ease 0s;
-  background: #e81ecd;
+  background: #819fb9;
   margin-left: 2px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.04);
   display: block;
