@@ -3045,6 +3045,7 @@ blockquote p {
 }
 .full-width-header .rs-header .menu-area .logo-area img {
   transition: 0.4s;
+  height: 50px;
   max-height: 90px;
 }
 .full-width-header .rs-header .menu-area .rs-menu-area {
@@ -4592,10 +4593,10 @@ body .search-modal .close:hover {
   background-color: #33516b;
 }
 .rs-breadcrumbs.img2 {
-  background: url(assets/images/bg/.jpg);
+  background: url(assets/images/bg/cover.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top -20px;
+  background-position: center top -150px;
 }
 .rs-breadcrumbs.galloPicture {
   background: url(assets/images/bg/.jpg) no-repeat center top -20px;

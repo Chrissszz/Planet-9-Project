@@ -20,11 +20,10 @@
   }
   let currentImageIndex = 0;
     const images = [
-        'assets/images/services/services-single/Peachrings.jpg',
-        'assets/images/services/services-single/Gummy-Worms.jpg',
-        'assets/images/services/services-single/Gummybears.jpg',
-        'assets/images/services/services-single/Skittles.jpg',
-        'assets/images/services/services-single/GusherBites.jpg'
+        'assets/images/services/services-single/Pants.jpg',
+        'assets/images/services/services-single/img1.jpg',
+        'assets/images/services/services-single/img2.jpg',
+        'assets/images/services/services-single/img3.jpg',
     ];
 
     function navigateLightbox(direction) {
