@@ -225,12 +225,12 @@ ul {
   clear: both;
 }
 ::-moz-selection {
-  background: #7b319f;
+  background: #819fb9;
   text-shadow: none;
   color: #ffffff;
 }
 ::selection {
-  background: #7b319f;
+  background: #819fb9;
   text-shadow: none;
   color: #ffffff;
 }
@@ -3099,14 +3099,15 @@ blockquote p {
   margin: 0;
   font-family: Roboto;
   font-size: 15px;
-  color: #3B4052;
+  color: #ffffff;
+
   font-weight: 500;
   height: unset;
   line-height: 25px;
   text-transform: capitalize;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li a:hover {
-  color: #ffb703;
+  color: #819fb9;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li:last-child {
   margin: 0;
@@ -3185,11 +3186,11 @@ body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul 
   color: #ffffff;
 }
 .shoppingCart a:hover{
-  color: #e81ecd;
+  color: #819fb9;
   cursor: pointer;
 }
 .full-width-header .rs-header .expand-btn-inner ul .search-parent a i:hover {
-  color: #e81ecd;
+  color: #819fb9;
 }
 .full-width-header .rs-header .expand-btn-inner ul .search-parent .sticky_form {
   position: absolute;
@@ -3344,9 +3345,6 @@ body.elGalloMix .full-width-header .rs-header .menu-area .main-menu .rs-menu ul 
 .full-width-header .rs-header.header-modify1 .menu-area .main-menu .rs-menu ul li.current-menu-item > a:before,
 .full-width-header .rs-header.header-modify1 .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
   color:  white !important;
-}
-.full-width-header .rs-header.header-modify1 .menu-area .main-menu .rs-menu ul.nav-menu li a {
-  color: #ffffff;
 }
 .full-width-header .rs-header.header-modify1 .menu-area .main-menu .rs-menu ul.sub-menu li a {
   color: white;
@@ -13400,7 +13398,7 @@ body .search-modal .close:hover {
 }
 .rs-footer.footer-main-home .footer-top .site-map li a:hover {
   padding-left: 5px;
-  color: #e81ecd;
+  color: #819fb9;
 }
 .rs-footer.footer-main-home .footer-top .site-map li a.galloColorHover:hover {
   padding-left: 5px;
@@ -13507,7 +13505,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-footer.footer-main-home .footer-bottom .copy-right-menu li a:hover {
-  color: #e1221b;
+  color: #819fb9;
 }
 .rs-footer.footer-main-home .footer-bottom .copy-right-menu li:before {
   display: block;
